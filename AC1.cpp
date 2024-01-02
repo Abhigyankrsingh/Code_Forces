@@ -12,7 +12,6 @@ int main() {
     cin >> n >> k;
 
     vector<int> ans;
-
     for (int i = 0; i <= k; i++) {
         ans.push_back(i);
     }
@@ -21,8 +20,8 @@ int main() {
         ans.push_back(i);
     }
 
-    for (int num : ans) {
-        cout << num << " ";
+    for (int i = 0; i < ans.size(); i++) {
+        cout << ans[i] << " ";
     }
     cout << "\n";
 
