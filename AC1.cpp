@@ -8,10 +8,10 @@
 using namespace std;
 
 int main() {
-    int n, k;
+    ll n, k;
     cin >> n >> k;
 
-    vector<int> ans;
+    vector<ll> ans;
     for (int i = 0; i <= k; i++) {
         ans.push_back(i);
     }
